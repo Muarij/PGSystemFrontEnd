@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import ListTenantComponent from './components/ListTenantComponent';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       <h1> welcome</h1>
-      </header>
+    <div className="container">
+    <ListTenantComponent />
     </div>
   );
 }
